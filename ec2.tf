@@ -1,7 +1,7 @@
 # configured aws provider with proper credentials
 provider "aws" {
   region  = "us-east-1"
-  profile = "terraform-user"
+  profile = "codebuild-user"
 }
 
 
@@ -11,7 +11,7 @@ terraform {
     bucket  = "aosnote-terraform-state-bucket"
     key     = "build/terraform.tfstate"
     region  = "us-east-1"
-    profile = "terraform-user"
+    profile = "codebuild-user"
   }
 }
 
