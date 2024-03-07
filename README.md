@@ -1,7 +1,6 @@
 # Automating Terraform Script Deployment with AWS CodeBuild
 
-This project demonstrates setting up an AWS CodeBuild project to automatically apply Terraform scripts whenever changes are committed to a GitHub repository. By integrating CodeBuild with GitHub, you can streamline the deployment process of infrastructure changes managed through Terraform.
-
+This project showcases the automation of infrastructure updates managed by Terraform through the setup of an AWS CodeBuild project. AWS CodeBuild is integrated with GitHub to streamline the deployment process seamlessly and efficiently.
 ## Prerequisites
 
 Before setting up the CodeBuild project, ensure the following prerequisites are met:
